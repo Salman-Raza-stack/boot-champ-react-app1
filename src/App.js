@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        Hello world from Salman
+        Hello world from waqas
         </p>
         <a
           className="App-link"
@@ -15,8 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learning React From Panacloud
-      </a>
+          Learn React
+        </a>
       </header>
     </div>
   );
