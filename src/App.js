@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Message from "./Message";
 
 function App() {
   // Variables to store componenet data
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <h1>Value of the counter is : {count}</h1>
+      <Message counter={count} />
       <br />
       <button onClick={() => setCount(++count)}>Update Counter</button>
     </div>
