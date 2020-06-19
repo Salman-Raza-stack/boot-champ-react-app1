@@ -13,7 +13,7 @@ function App() {
       Value of the counter is : {count}
       </h1>
       <br>
-      <button onClick={()=> alert.apply('Button Pressed')}>
+      <button onClick={()=> setCount(2)}>
       Update Counter
       </button>
     </div>
