@@ -6,10 +6,10 @@ function App() {
   // Variables to store componenet data
 
   let [count, setCount] = useState(1);
-  let [isMorning, setMorning] = useState(true);
+  let [isMorning, setMorning] = useState(false);
 
   return (
-    <div className="box">
+    <div className={'box ${isMorning ? "dayLight" : ""}'}>
       <h2>Day time = {isMorning ? "Morning" : "Night"}</h2>
       <Message counter={count} />
       <br />
