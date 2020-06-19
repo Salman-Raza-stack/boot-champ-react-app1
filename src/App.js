@@ -9,9 +9,13 @@ function App() {
 
   return (
     <div>
-      <h1>Value of the counter is : {count}</h1>
+      <h1>
+      Value of the counter is : {count}
+      </h1>
       <br>
-      <button onClick={()=> alert.apply('Button Pressed')}>Update Counter</button>
+      <button onClick={()=> alert.apply('Button Pressed')}>
+      Update Counter
+      </button>
     </div>
   );
 }
