@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className={`box ${isMorning ? "boxLight" : ""}`}>
-      <h2>Day time = {isMorning ? "Morning" : "Night"}</h2>
+      <h2>{isMorning ? "Good Morning" : "Good Night Sweet Dreams"}</h2>
 
       <Message counter={count} />
 
