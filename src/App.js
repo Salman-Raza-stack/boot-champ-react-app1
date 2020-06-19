@@ -9,13 +9,9 @@ function App() {
 
   return (
     <div>
-      <h1>
-      Value of the counter is : {count}
-      </h1>
-      <br>
-      <button onClick={()=> setCount(2)}>
-      Update Counter
-      </button>
+      <h1>Value of the counter is : {count}</h1>
+      <br />
+      <button onClick={() => setCount(2)}>Update Counter</button>
     </div>
   );
 }
