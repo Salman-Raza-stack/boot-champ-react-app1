@@ -1,9 +1,7 @@
 import React from "react";
 
-function Dinner(props) {
-  return (
-    
-  );
+function Dinner() {
+  return;
 }
 
 export default Dinner;
